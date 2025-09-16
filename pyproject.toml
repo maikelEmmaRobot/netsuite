@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "netsuite-emma"
+name = "netsuite"
 version = "0.12.1"
 description = "Make async requests to NetSuite SuiteTalk SOAP/REST Web Services and Restlets"
 authors = ["Jacob Magnusson <m@jacobian.se>", "Mike Bianco <mike@mikebian.co>"]
