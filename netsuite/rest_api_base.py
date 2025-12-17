@@ -68,7 +68,7 @@ class RestApiBase:
         kw = {**request_kw}
         # fix to keep supporting script & deploy parameters
         subpath_params = httpx.URL(url)
-        kw.setdefault('params', {}).update(p.subpath_params)
+        kw.setdefault('params', {}).update(subpath_params.params)
         logger.debug(
             f"Making {method.upper()} request to {url}. Keyword arguments: {kw}"
         )
